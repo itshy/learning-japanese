@@ -16,7 +16,7 @@ const App = () => {
     <Fragment>
       <BrowserRouter history = { browserHistory }>
         <Switch>
-          <Route exact path="/" component={ () => <Home handleMenu={handleMenu} /> } />
+          <Route exact component={ () => <Home handleMenu={handleMenu} /> } />
         </Switch>
       </BrowserRouter>
       <Menu active={state.isMenu} handleMenu={handleMenu} />

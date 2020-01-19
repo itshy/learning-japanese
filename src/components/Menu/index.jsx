@@ -13,7 +13,7 @@ const Menu = ({ active, handleMenu }) => {
       'menu',
       { 'menu__active': active },
     )}>
-      <IconButton size="large" className="menu__close">
+      <IconButton size="medium" className="menu__close">
         <ArrowDownwardIcon fontSize="inherit" onClick={handleMenu} />
       </IconButton>
     </div>

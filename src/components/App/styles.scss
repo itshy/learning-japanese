@@ -1,0 +1,9 @@
+.button {
+  border-radius: 8rem !important;
+  background-color: #ea6d84 !important;
+  padding: 5px 25px !important;
+
+  & > .MuiButton-label {
+    color: white;
+  }
+}

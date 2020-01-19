@@ -1,0 +1,32 @@
+{
+  "name": "japanese-alphabet",
+  "version": "1.0.0",
+  "description": "alphabet learning app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./ --out-dir build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "babel-eslint": "^10.0.1",
+    "classnames": "^2.2.6",
+    "components": "^0.1.0",
+    "prop-type": "0.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "sass": "^1.25.0"
+  },
+  "author": "itshy",
+  "license": "ISC"
+}
